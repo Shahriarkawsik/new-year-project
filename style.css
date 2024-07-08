@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Merriweather-font {
+  font-family: "Merriweather";
+}
+.Inter-font {
+  font-family: "Inter";
+}
+:root {
+  --ratio: calc(1200px / 1600px);
+  --primary-color: rgb(255, 0, 0);
+  --secondary-color: rgb(7, 2, 17);
+}
+.banner-container {
+  width: 1023px;
+  min-height: 465px;
+  border-radius: 12.4px;
+  /* margin: 39px 109px 93px; */
+  margin: 39px auto 93px;
+  background-image: linear-gradient(
+      180deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url(./images/banner_image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-content {
+  height: 465px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.banner-content .subtitle {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 31px;
+}
+
+.banner-content .title {
+  color: #ffffff;
+  font-size: 66px;
+  font-weight: 900;
+  line-height: 73.6px;
+}
+/* offer section */
+main section {
+  margin: 39px 109px 93px;
+}
+.offer-section {
+  text-align: center;
+}
+.offer-percent {
+  color: var(--primary-color);
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 83px;
+}
+.offer-subtitle {
+  color: var(--primary-color);
+  font-size: 18.6px;
+  font-weight: 500;
+  line-height: 22.5px;
+  margin: 37px 0 12.4px;
+}
+.offer-title {
+  color: var(--secondary-color);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45px;
+  margin-bottom: 37.2px;
+}
+.new-year-pic {
+  width: 622.25px;
+  height: 388px;
+}
+
+/* border: 2px solid red; */
+/* party section */
+.party-section {
+  width: 1023px;
+  height: 465px;
+  border-radius: 16px;
+  background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+    url(./images/vectorrr.png);
+}
+.party-container {
+  display: flex;
+  gap: 30.35px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 107px 0 98px;
+  color: #ffffff;
+}
+.party-title {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 68px;
+  letter-spacing: 11%;
+}
+.party-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.25px;
+  margin: 18.6px 0 37.2px;
+}
+.party-btn {
+  font-size: 15.5px;
+  font-weight: 700;
+  line-height: 18.6px;
+  text-transform: uppercase;
+}
+.pic2024 {
+  width: 248px;
+  height: 360px;
+  margin: 52.8px 0 52px 0;
+}
