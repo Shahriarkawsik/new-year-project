@@ -126,3 +126,69 @@ main section {
   height: 360px;
   margin: 52.8px 0 52px 0;
 }
+/* party Schedule */
+.party-schedule {
+  width: 1023px;
+  height: 374px;
+  border-radius: 12.4px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  text-align: center;
+  padding: 77.5px 299px 85.25px;
+}
+.party-schedule h3 {
+  line-height: 43.4px;
+  font-weight: 600;
+  font-size: 24.8px;
+}
+.party-schedule h3 span {
+  color: var(--primary-color);
+}
+.party-schedule-btn {
+  background: var(--primary-color);
+  border-radius: 6.2px;
+  margin-top: 37.2px;
+  border: none;
+  color: #ffffff;
+  font-size: 15.5px;
+  font-weight: 700;
+  line-height: 18.6px;
+  padding: 12.4px 24.8px;
+  text-align: center;
+}
+/* new-event section */
+.new-event {
+  width: 1023px;
+  height: 359px;
+  background-color: rgb(203, 201, 201);
+}
+.events-container {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+}
+.event-left {
+  padding: 80.6px 0;
+}
+.event-announce {
+  color: var(--primary-color);
+  font-size: 18.6px;
+  font-weight: 500;
+  line-height: 22.5px;
+}
+/* .event-middle {
+  margin: 0 91.45px 0 54.25px; 
+  width: 282px;
+  height: 282px;
+} */
+.event-middle img {
+  height: 100%;
+  width: 100%;
+  border: 15px solid var(--primary-color);
+  padding: 15px;
+  border-radius: 50%;
+  /* padding: 38px; */
+}
