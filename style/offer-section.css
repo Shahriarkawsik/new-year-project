@@ -1,0 +1,28 @@
+/* offer section */
+.offer-section {
+  text-align: center;
+}
+.offer-percent {
+  color: var(--primary-color);
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 83px;
+}
+.offer-subtitle {
+  color: var(--primary-color);
+  font-size: 18.6px;
+  font-weight: 500;
+  line-height: 22.5px;
+  margin: 37px 0 12.4px;
+}
+.offer-title {
+  color: var(--secondary-color);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45px;
+  margin-bottom: 37.2px;
+}
+.new-year-pic {
+  width: 622.25px;
+  height: 388px;
+}

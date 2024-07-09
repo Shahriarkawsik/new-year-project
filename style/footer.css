@@ -1,0 +1,31 @@
+.footer {
+  background: rgb(7, 2, 17);
+}
+.footer-container {
+  padding: 96px 112px;
+  color: #fff;
+}
+.footer-1st-content,
+.footer-3rd-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-1st-content {
+  margin-bottom: 39.6px;
+}
+.footer-contact {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  /* margin: 10px 0; */
+}
+.footer-2nd-content {
+  text-align: center;
+  margin: 38.8px 0;
+}
+.footer-2nd-content img {
+  margin-right: 19px;
+}
+.footer-3rd-content {
+  margin-top: 40.4px;
+}
