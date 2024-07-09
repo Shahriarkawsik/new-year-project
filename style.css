@@ -161,34 +161,98 @@ main section {
 }
 /* new-event section */
 .new-event {
-  width: 1023px;
-  height: 359px;
-  background-color: rgb(203, 201, 201);
+  width: 1056px;
+  height: 370.4px;
+  margin: 80px 112px;
+}
+.border {
+  border: 2px solid #f00;
 }
 .events-container {
   display: flex;
-  /* align-items: center;
-  justify-content: center; */
+  align-items: center;
 }
-.event-left {
-  padding: 80.6px 0;
+.first-event {
+  width: 364.4px;
+  height: 204px;
 }
-.event-announce {
-  color: var(--primary-color);
-  font-size: 18.6px;
+.first-event-subtitle {
+  color: rgb(255, 0, 0);
+  font-size: 19.2px;
   font-weight: 500;
-  line-height: 22.5px;
+  line-height: 23.2px;
 }
-/* .event-middle {
-  margin: 0 91.45px 0 54.25px; 
-  width: 282px;
-  height: 282px;
-} */
-.event-middle img {
-  height: 100%;
+.first-event-title {
+  color: rgb(7, 2, 17);
+  font-size: 38.4px;
+  font-weight: 900;
+  line-height: 48px;
+  text-transform: capitalize;
+  margin: 12.8px 0 17.6px;
+}
+.event-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+.second-event {
+  width: 370.4px;
+  height: 370.4px;
+  margin: 0 64.4px 0 36px;
+}
+.second-event img {
   width: 100%;
-  border: 15px solid var(--primary-color);
-  padding: 15px;
+  height: 100%;
+  border: 15px solid #f00;
   border-radius: 50%;
-  /* padding: 38px; */
+  padding: 15px;
+}
+.third-event {
+  width: 220.8px;
+  height: 276.63px;
+  margin-top: 89.6px;
+}
+.third-event-title {
+  color: rgb(255, 0, 0);
+  font-size: 38.4px;
+  font-weight: 700;
+  line-height: 46.4px;
+  margin-bottom: 12.8px;
+}
+.third-event-description {
+  margin-bottom: 34.4px;
+}
+.third-event img {
+  width: 112px;
+  height: 106.3px;
+}
+
+/*=================== 
+  Holiday section 
+=============================*/
+.holiday-section {
+  text-align: center;
+}
+.holiday-subtitle {
+  color: var(--secondary-color);
+  font-size: 19.2px;
+  font-weight: 500;
+  line-height: 23.2px;
+}
+.holiday-title {
+  font-size: 58px;
+  font-weight: 900;
+  line-height: 73px;
+  margin: 12.8px 0 22.4px;
+}
+.span {
+  color: var(--primary-color);
+}
+.holiday-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 51.2px;
 }
